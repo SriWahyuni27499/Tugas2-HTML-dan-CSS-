@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!--Tag untuk menentukan tipe dokumen-->
+<html> <!--Tag untuk membuat sebuah dokumen HTML-->
+<head> <!--Tag untuk membuat informasi tentang dokumen-->
+    <title>Belajar CSS</title>
+    <!--Tag untuk membuat judul sebuah halaman-->`
+    <style type="text/css"> /*Tag ini berfungsi untuk mengubah seluruh dari isi dari halaman dengan memanggil perintah CSS ini pada bagian body atau tubuh*/
+        h2 , h3{ /*Selektor (untuk selektor yang lebih dari satu dipisahkan dengan tanda koma)*/
+            color: blue; /* Untuk membuat seluruh tag header <h2> dan <h3> berwarna biru*/
+            }
+        p strong { 
+            color:red;
+            }
+        /*Kode CSS "p strong"  yaitu seluruh tag <strong> yang berada dalam tag<p> akan berwarna merah*/
+        h2.judul , .paragraf { /*h2.judul berfungsi untuk mencari seluruh tag h2 dengan class judul, sedangkan .paragraf untuk mencari tag yang memiliki class paragraf*/
+            font-style: italic; } /*kode CSS untuk menampilkan teks secara garis miring*/
+        #belajar_html, p#belajar_css, h3.subheader { /*Kode CSS berikut berfungsi untuk mengubah ukuran text menjadi 14 pt untuk tag yang memiliki id "belajar_html" tag p dengan id "belajar_css" dan seluruh tag h3 yang memiliki "subheader"*/
+            font-size:14pt;
+            }   
+    </style> <!--Tag untuk menutup informasi style untuk dokumen-->
+</head> <!--Tag untuk menutup informasi tentang dokumen-->
+<body> <!--Tag untuk membuat tubuh dari sebuah halaman-->
+    <h2 class="judul">Belajar CSS</h2> <!--Tag "h2" untuk membuat heading-->
+        <p> Ini <strong>adalah</strong> sebuah <em>paragraf</em>
+    </p> <!--Tag <p> digunakan untuk menidentifikasi paragraf teks sedangkan tag <strong> untuk menidentifikasi teks yang lebih penting sedangkan tag <em> untuk membuat teks miring -->
+        <p id="belajar_html" class="paragraf" > Saya sedang belajar HTML dari <!--Kode berikut berfungsi untuk membuat paragraf-->
+        <a href="http://jti.polije.ac.id" target="_blank">Jti.polije</a> <!--Digunakan untuk membuka link di jendela baru pada browser-->
+        akan terbuka pada tab baru</p>
+        <p id="belajar_css" class="paragraf"> Saya sedang belajar HTML dari <!--Kode berikut berfungsi untuk membuat paragraf-->
+        Saya sedang belajar CSS, mohon jangan diganggu</p>
+    <br /> <!--Tag untuk memasukkan satu garis putus-->
+    
+    <h3 class="judul subheader">Daftar Belanjaan</h3><!--Tag "h3" untuk membuat heading-->
+    <ol> 	<!--Tag untuk membuat daftar dengan nomor-->
+        <li><em>Minyak Goreng</em></li> <!--Tag <li> untuk membuat sebuah item daftar dan tag <em> untuk membuat teks miring -->
+        <li>Sabun Mandi</li> <!--Tag <li> untuk membuat sebuah item daftar-->
+        <li>Deterjen</li> <!--Tag <li> untuk membuat sebuah item daftar-->
+        <li>Shampoo</li> <!--Tag <li> untuk membuat sebuah item daftar-->
+        <li>Obat Nyamuk</li> <!--Tag <li> untuk membuat sebuah item daftar-->
+    </ol> <!--Tag untuk menutup daftar dengan nomor-->
+</body> <!--Tag untuk menutup tubuh dari sebuah halaman-->
+</html> <!--Tag untuk menutup sebuah dokumen HTML-->

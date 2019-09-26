@@ -1,0 +1,7 @@
+div { /*Tag untuk membuat sebuah bagian dalam dokumen*/
+    -webkit-column-count: 3; /*Kode CSS untuk membuat kolom koran (Chrome, dan versi terbaru dari opera*/
+    -moz-column-count: 3; /*Kode CSS untuk membuat kolom koran (Firefox)*/
+    -o-column-count: 3; /*Kode CSS untuk membuat kolom koran (Opera versi lama)*/
+    -ms-column-count: 3; /*Kode CSS untuk membuat kolom koran(Internet Explorer)*/
+    column-count: 3; /*Kode CSS untuk membuat kolom koran*/
+    }

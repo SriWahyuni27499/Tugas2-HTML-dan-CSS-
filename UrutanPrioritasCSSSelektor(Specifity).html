@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!--Tag untuk menentukan tipe dokumen-->
+<html> <!--Tag untuk membuat sebuah dokumen HTML-->
+<head> <!--Tag untuk membuat informasi tentang dokumen-->
+    <title>Contoh Kasus Spesifik CSS</title> <!--Tag untuk membuat judul sebuah halaman-->
+    <style type="text/css"> /*Tag ini berfungsi untuk mengubah seluruh dari isi dari halaman dengan memanggil perintah CSS ini pada bagian body atau tubuh*/
+        p {
+            color:red;
+            }/*color untuk memberikan warna merah pada elemen p*/ 
+        div p {
+            color:green;
+            }
+        #aaa{ /*Selektor Pendefinisian warna*/
+            color:orange;
+            }
+        body div p {
+            color:yellow;
+            }
+        div p.kalimat {
+            color:silver;
+            }
+    </style>
+</head> <!--Tag untuk menutup informasi tentang dokumen-->
+<body> <!--Tag untuk membuat tubuh dari sebuah halaman-->
+    <div>
+    <p id="aaa">
+        Sedang Belajar CSS...
+    </p> <!--elemen <p> merupakan tag untuk membuat paragraf yang ditutup dengan tag </p>-->
+    </div>
+</body> <!--Tag untuk menutup tubuh dari sebuah halaman-->
+</html> <!--Tag untuk menutup sebuah dokumen HTML-->

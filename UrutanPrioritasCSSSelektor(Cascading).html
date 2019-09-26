@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!--Tag untuk menentukan tipe dokumen-->
+<html> <!--Tag untuk membuat sebuah dokumen HTML-->
+<head> <!--Tag untuk membuat informasi tentang dokumen-->
+    <title>Contoh Kasus Cascading CSS</title> <!--Tag untuk membuat judul sebuah halaman-->`
+    <link rel="stylesheet" type="text/css" href="Prioritas.css"> <!--Kode CSS menggunakan external style sheets untuk merubah header menjadi biru atau sesuai dengan file CSS yang telah dibuat-->
+    <style type="text/css">
+        h2 { /*heading kedua dengan warna teks merah*/
+            color:red;
+            }
+    </style> <!--Kode CSS menggunakan metode internal style sheets dengan mengubah menjadi warna merah pada tag header <h2>-->
+
+</head> <!--Tag untuk menutup informasi tentang dokumen-->
+<body> <!--Tag untuk membuat tubuh dari sebuah halaman-->
+    <h2>
+        Akan berwarna apa saya?..1
+    </h2> <!--Tag "h2" untuk membuat heading-->
+    <h2 style="color:green"> <!--Tag "h2" untuk membuat heading dan perintah <style> untuk merubah warna huruf menjadi hijau-->
+        Akan berwarna apa saya?..2
+    </h2>
+</body> <!--Tag untuk menutup tubuh dari sebuah halaman-->
+</html> <!--Tag untuk menutup sebuah dokumen HTML-->

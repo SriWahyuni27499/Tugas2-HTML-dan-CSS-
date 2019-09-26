@@ -1,0 +1,27 @@
+body { /*Kode CSS untuk membuat tubuh dari sebuah halaman*/
+    text-align: center; /*Kode CSS untuk meratakan teks pada bagian tengah*/
+    }
+    #header { /*digunakan pada bagian halam web untuk judul ataupun logo*/
+    border: 1px solid red; /*Untuk memberikan batas atau garis pada suatu box berukuran 1 pixel dan solid sebagai pembuat garis tebal berwarna merah sesuai dengan kode perintah tersebut*/
+    }
+    #menu { /*Kode CSS yang digunakan untuk navigasi pengunjung agar dapat dengan mudah menjelajah website*/
+    border: 1px solid blue; /*Untuk memberikan batas atau garis pada suatu box berukuran 1 pixel dan solid sebagai pembuat garis tebal berwarna biru sesuai dengan kode perintah tersebut*/
+    }
+    #menu li, #sidebar li {
+    list-style: none; /*Kode CSS untuk menghilangkan tanda pada list*/
+    }
+    #content {
+    width: 59%; /*Kode CSS untuk mengatur lebar content*/
+    float: left; /*Kode CSS untuk membuat layout website ke tengah*/
+    border: 1px solid yellow; /*Untuk memberikan batas atau garis pada suatu box berukuran 1 pixel dan solid sebagai pembuat garis tebal berwarna kuning sesuai dengan kode perintah tersebut*/
+    }
+    #sidebar {
+    border: 1px solid green; /*Untuk memberikan batas atau garis pada suatu box berukuran 1 pixel dan solid sebagai pembuat garis tebal berwarna hijau sesuai dengan kode perintah tersebut*/
+    float: left; /*Kode CSS untuk membuat layout website ke tengah*/
+    width: 40%; /*Kode CSS untuk mengatur lebar sidebar*/
+    }
+    #footer {
+    width: 100%; /*Kode CSS untuk mengatur lebar footer*/
+    border: 1px solid black; /*Untuk memberikan batas atau garis pada suatu box berukuran 1 pixel dan solid sebagai pembuat garis tebal berwarna hitam sesuai dengan kode perintah tersebut*/
+    float: left; /*Kode CSS untuk membuat layout website ke tengah*/
+    }

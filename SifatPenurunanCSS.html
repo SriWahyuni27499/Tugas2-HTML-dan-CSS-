@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!--Tag untuk menentukan tipe dokumen-->
+<html> <!--Tag untuk membuat sebuah dokumen HTML-->
+<head> <!--Tag untuk membuat informasi tentang dokumen-->
+    <title>Contoh Inheritance dalam CSS</title> <!--Tag untuk membuat judul sebuah halaman-->
+    <style type="text/css"> /*Tag ini berfungsi untuk mengubah seluruh dari isi dari halaman dengan memanggil perintah CSS ini pada bagian body atau tubuh*/
+        div.satu { /*Sebuah dokumen pertama*/
+            border: 1px solid black; /*Untuk memberikan batas atau garis pada suatu box berukuran 1 pixel dan solid sebagai pembuat garis tebal berwarna hitam sesuai dengan kode perintah tersebut*/
+            color: blue; /*Untuk memberikan warna biru pada huruf atau kalimat yang akan dicetak*/
+        }
+        div.dua { /*Sebuah dokumen kedua*/
+            border: 1px solid black; /*Untuk memberikan batas atau garis pada suatu box berukuran 1 pixel dan solid sebagai pembuat garis tebal berwarna hitam sesuai dengan kode perintah tersebut*/
+        }
+        p.dua { /*Paragraf ke dua*/
+            border: inherit; /*untuk memberikan nilai inherit pada border(batas atau garis)*/
+        }
+    </style>
+</head> <!--Tag untuk menutup informasi tentang dokumen-->
+<body> <!--Tag untuk membuat tubuh dari sebuah halaman-->
+    <div class="satu"> <!--Membuat sebuah dokumen pada class ke satu-->
+        <p class="satu"> <!--elemen <p> merupakan tag untuk membuat paragraf pada class ke satu yang ditutup dengan tag </p>-->
+        Kalimat ini tanpa <em class="satu">nilai property inherit</em> CSS
+        </p> 
+    </div> <!--Tag untuk membuat sebuah bagian dalam dokumen-->
+    <br /> <!--Tag untuk memasukkan satu garis putus-->
+    <div class="dua"> <!--Membuat sebuah dokumen pada class ke satu-->
+        <p class="dua"> <!--elemen <p> merupakan tag untuk membuat paragraf pada class ke dua yang ditutup dengan tag </p>-->
+            Kalimat ini menggunakan <em class="dua">nilai property inherit</em> CSS
+        </p>
+    </div> <!--Tag untuk menutup bagian dalam dokumen-->
+</body> <!--Tag untuk menutup tubuh dari sebuah halaman-->
+</html> <!--Tag untuk menutup sebuah dokumen HTML-->

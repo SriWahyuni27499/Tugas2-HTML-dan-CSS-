@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!--Tag untuk menentukan tipe dokumen-->
+<html> <!--Tag untuk membuat sebuah dokumen HTML-->
+<head> <!--Tag untuk membuat informasi tentang dokumen-->
+    <title>Belajar Membuat Form </title> <!--Tag untuk membuat judul sebuah halaman-->
+</head> <!--Tag untuk menutup informasi tentang dokumen-->
+<body> <!--Tag untuk membuat tubuh dari sebuah halaman-->
+<form action=" formulir.html" method="get"> <!--Tag form berfungsi untuk mengumpulkan data dari pengunjung web, action untuk menjelaskan kemana data akan dikirimkan, sedangkan method untuk menjelaskan bagaimana data isisnya form akan dikirimkan ke browser (get=untuk query pencarian dan post=untuk data yang sensitif seperti password atau register user)-->
+Nama: <input type="text" name="nama" value="Nama Kamu"/><!--Tag untuk menginput text nama-->
+<br/> <!--Tag untuk memasukkan satu garis putus-->
+
+Password: <input type="password" name="password"/> <!--Tag untuk menginput atau memasukkan password yang tidak terlihat-->
+<br/> <!--Tag untuk memasukkan satu garis putus-->
+
+Jenis Kelamin :
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked/> <!--Tag Type radio berfungsi untuk bisa memilih satu diantara pilihan grup radio, atribut value untuk membuat text tombol submit berubah inputan sesuai dengan nilai value, dan checked untuk membuat checkbox langsung terpilih saat halaman pertama ditampilkan -->
+Laki - Laki
+<input type="radio" name="jenis_kelamin" value="perempuan"/> <!--Tag Type radio berfungsi untuk bisa memilih satu diantara pilihan grup radio, atribut value untuk membuat text tombol submit berubah inputan sesuai dengan nilai value-->
+Perempuan
+<br/> <!--Tag untuk memasukkan satu garis putus-->
+
+Hobi:<input type="checkbox" name="hobi_baca" /> Membaca Buku <!--Tag yang berupa inputan  checkbox yang dapat diceklist atau dicentang oleh user-->
+    <input type="checkbox" name="hobi_nulis" checked /> Menulis  <!--Tag yang berupa inputan  checkbox yang dapat diceklist atau dicentang oleh user dan checked untuk membuat checkbox langsung terpilih saat halaman pertama ditampilkan-->
+    <input type="checkbox" name="hobi_mancing" /> Memancing <!--Tag yang berupa inputan  checkbox yang dapat diceklist atau dicentang oleh user-->
+<br/>  <!--Tag untuk memasukkan satu garis putus-->
+
+Asal Kota:
+<select name="asal_kota" > <!--Tag yang digunakan untuk inputan yang telah tersedia nilainya dan user hanya dapat memilih nilai yang ada-->
+    <option value="Kota Jakarta"> Jakarta</option> <!--Tag untuk membuat box pilihan dan nilai value yang dikirim-->
+    <option>Bandung</option> <!--Tag untuk membuat box pilihan dan option tersebut yang langsung diproses-->
+    <option value="Kota Semarang" selected>Semarang</option> <!--Tag yang digunakan untuk inputan yang telah tersedia nilainya dan user hanya dapat memilih nilai yang ada-->
+</select>
+<br /> <!--Tag untuk memasukkan satu garis putus-->
+
+Komentar Anda:
+<textarea name="komentar" rows="5" cols="20"> Silahkan katakan isi hati anda
+</textarea> <!--Tag yang dapat berisi banyak baris dan elemennya ditampilkan sebagai text awal dari form-->
+<br /> <!--Tag untuk memasukkan satu garis putus-->
+
+<input type="submit" value="Mulai Proses!" > <!--Tag untuk menampilkan tombol untuk memproses form serta jika diisi akan membuat text tombol submit berubah sesuai inputan nilai value-->
+
+</form> <!--Tag untuk menutup perintah form-->
+</body> <!--Tag untuk menutup tubuh dari sebuah halaman-->
+</html> <!--Tag untuk menutup sebuah dokumen HTML-->
